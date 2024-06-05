@@ -2,13 +2,13 @@
 library g_recaptcha_v3_web;
 
 import 'dart:async';
-import 'dart:html' as html;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart' as js_util;
+import 'package:universal_html/html.dart' as html;
 
 @JS('flutter_g_recaptcha_v3_key')
 external set _gRecaptchaV3Key(String key);
